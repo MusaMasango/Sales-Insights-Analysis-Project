@@ -33,6 +33,6 @@ The data used in this project was downloaded from  [https://ourworldindata.org/c
 
 ## Data Analysis using MySQL
 * Show all customer records
-// SELECT * FROM customers();
+`SELECT * FROM customers();`
 
 
