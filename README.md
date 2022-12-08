@@ -19,3 +19,10 @@ The results obtained in this project can be used by various stakeholders such as
 * IT
 ## End result
 An automated dashboard providing quick and latest sales in order to support data driven decision making.
+## Code and Resources used
+
+**MySQL workbench Version**:8.0
+**Tableau Version**:2022.3.1.
+
+**Data Source**:https://github.com/codebasics/DataAnalysisProjects/blob/master/1_SalesInsights/db_dump.sql (part 1)
+** Data Source**:https://github.com/codebasics/DataAnalysisProjects/blob/master/1_SalesInsights/db_dump_version_2.sql (part 2)
