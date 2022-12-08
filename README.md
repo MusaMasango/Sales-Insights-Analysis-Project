@@ -17,7 +17,7 @@ The results obtained in this project can be used by various stakeholders such as
 * Customer service team
 * Data and analytics team
 * IT
-## End result
+## Objective
 An automated dashboard providing quick and latest sales in order to support data driven decision making.
 ## Code and Resources used
 
@@ -28,3 +28,6 @@ An automated dashboard providing quick and latest sales in order to support data
 **Data Source**:https://github.com/codebasics/DataAnalysisProjects/blob/master/1_SalesInsights/db_dump.sql (part 1) 
 
 ** Data Source**:https://github.com/codebasics/DataAnalysisProjects/blob/master/1_SalesInsights/db_dump_version_2.sql (part 2)
+## Data Collection
+The data used in this project was downloaded from  [https://ourworldindata.org/coronavirus](https://github.com/codebasics/DataAnalysisProjects/blob/master/1_SalesInsights/db_dump.sql) for part 1 and (https://github.com/codebasics/DataAnalysisProjects/blob/master/1_SalesInsights/db_dump_version_2.sql) for part 2. I then read the sql files using the using MySQL workbench.
+
