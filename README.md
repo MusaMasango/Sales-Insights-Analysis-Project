@@ -1,4 +1,4 @@
-# Sales-Insights-Project
+# Sales-Insights-Analysis-Project
 
 ## Abstract
 In this project I will be conducting a basic sales analysis using MySQL and Tableau.
