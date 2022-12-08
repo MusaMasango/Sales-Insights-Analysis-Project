@@ -31,3 +31,8 @@ An automated dashboard providing quick and latest sales in order to support data
 ## Data Collection
 The data used in this project was downloaded from  [https://ourworldindata.org/coronavirus](https://github.com/codebasics/DataAnalysisProjects/blob/master/1_SalesInsights/db_dump.sql) for part 1 and (https://github.com/codebasics/DataAnalysisProjects/blob/master/1_SalesInsights/db_dump_version_2.sql) for part 2. I then read the sql files using the using MySQL workbench.
 
+## Data Analysis using MySQL
+* Show all customer records
+// SELECT * FROM customers();
+
+
