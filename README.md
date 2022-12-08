@@ -74,4 +74,6 @@ The data used in this project was downloaded from  [https://ourworldindata.org/c
 `IF [Currency] == 'USD' THEN [Sales Amount]*82 ELSE [Sales Amount] END`
 
 I plotted some graphs on Tableau which show the relationship between the revenue and markets, profit and markets and sales qauntity and markets amongst others Below are highlights from Tableau
+![profit trend](https://github.com/MusaMasango/Sales-Insights-Project/blob/main/Profit%20trend.pdf)
+![revenue by year](https://github.com/MusaMasango/Sales-Insights-Project/blob/main/Revenue%20by%20year.pdf)
 
