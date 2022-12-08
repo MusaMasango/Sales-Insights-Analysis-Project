@@ -32,38 +32,39 @@ An automated dashboard providing quick and latest sales in order to support data
 The data used in this project was downloaded from  [https://ourworldindata.org/coronavirus](https://github.com/codebasics/DataAnalysisProjects/blob/master/1_SalesInsights/db_dump.sql) for part 1 and (https://github.com/codebasics/DataAnalysisProjects/blob/master/1_SalesInsights/db_dump_version_2.sql) for part 2. I then read the sql files using the using MySQL workbench.
 
 ## Data Analysis using MySQL
-* Show all customer records
+1. Show all customer records
 
 `SELECT * FROM customers();`
-* Show total number of customers
+
+2. Show total number of customers
 
 `SELECT count(*) FROM customers;`
 
-* Show transactions for the Mumbai market (market code for mumbai is Mark002)
+3. Show transactions for the Mumbai market (market code for mumbai is Mark002)
 
 `SELECT * FROM transactions where market_code='Mark002';`
 
-* Show distinct product codes that were sold in mumbai
+4. Show distinct product codes that were sold in mumbai
 
 `SELECT distinct product_code FROM transactions where market_code='Mark002';`
 
-* Show transactions where currency is US dollars
+5. Show transactions where currency is US dollars
 
 `SELECT * from transactions where currency="USD";`
 
-* Show transactions in 2020 join by date table
+6. Show transactions in 2020 join by date table
 
 `SELECT transactions.*, date.* FROM transactions INNER JOIN date ON transactions.order_date=date.date where date.year=2020;`
 
-* Show total revenue in year 2020
+7. Show total revenue in year 2020
 
 `SELECT SUM(transactions.sales_amount) FROM transactions INNER JOIN date ON transactions.order_date=date.date where date.year=2020 and transactions.currency="INR\r" or transactions.currency="USD\r";`
 
-* Show total revenue in year 2020, January Month
+8. Show total revenue in year 2020, January Month
 
 `SELECT SUM(transactions.sales_amount) FROM transactions INNER JOIN date ON transactions.order_date=date.date where date.year=2020 and and date.month_name="January" and (transactions.currency="INR\r" or transactions.currency="USD\r");`
 
-* Show total revenue in year 2020 in Mumbai
+9. Show total revenue in year 2020 in Mumbai
 
 `SELECT SUM(transactions.sales_amount) FROM transactions INNER JOIN date ON transactions.order_date=date.date where date.year=2020 and transactions.market_code="Mark002";`
 
