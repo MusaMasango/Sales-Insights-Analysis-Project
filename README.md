@@ -69,3 +69,9 @@ The data used in this project was downloaded from  [https://ourworldindata.org/c
 `SELECT SUM(transactions.sales_amount) FROM transactions INNER JOIN date ON transactions.order_date=date.date where date.year=2020 and transactions.market_code="Mark002";`
 
 ## Data Analysis using Tableau
+1. Formula to create normalized amount 
+
+`IF [Currency] == 'USD' THEN [Sales Amount]*82 ELSE [Sales Amount] END`
+
+I plotted some graphs on Tableau which show the relationship between the revenue and markets, profit and markets and sales qauntity and markets amongst others Below are highlights from Tableau
+
